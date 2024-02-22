@@ -64,6 +64,11 @@ Project has been compiled. Build artifacts saved at /Users/vtwoptwo/vtwoptwo/pro
 ```
 
 ```bash
+
+brownie networks add Ethereum ganache-local  host=http://127.0.0.1:7545 chainid=5777      
+```
+
+```bash
 brownie networks add Ethereum ganache-local  host=http://127.0.0.1:7545 chainid=5777                                                                                                           1 ↵
 Brownie v1.20.1 - Python development framework for Ethereum
 
