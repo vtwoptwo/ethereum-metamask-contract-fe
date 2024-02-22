@@ -125,7 +125,7 @@ yarn add web3
 
 
 
-
+![Hello World Contract FE](image-1.png)
 
 
 ![Example of my ganache instance](image.png)
