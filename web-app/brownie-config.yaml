@@ -1,0 +1,11 @@
+networks:
+  default: development
+  ganache-local:
+    cmd: ganache-cli
+    host: http://localhost:7545
+    chainid: 5777
+    accounts: 10
+    evm_version: istanbul
+    mnemonic: brownie_test
+    gas_limit: 12000000
+    timeout: 120

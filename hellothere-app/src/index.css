@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: 'Roboto Mono', monospace; /* Sci-fi font */
+  background-color: #121520; /* Dark space-like background */
+  color: #e0e0e0; /* Light, silvery text */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container for your App content */
+.App {
+  background-color: #202535; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3); /* Soft, futuristic glow */
+}
+
+h1 {
+  color: #90caf9; /* Light blue heading */
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0px 2px 5px rgba(0, 255, 255, 0.5); /* Subtle text glow */
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+input[type='text'] {
+  background-color: #151a28;
+  border: 1px solid #444;
+  color: #c0c0c0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #009688; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #00bfa5; 
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.9) 100%);
+  z-index: -1;
+  animation: starsAnimation 20s linear infinite;
+}
+
+@keyframes starsAnimation {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100vh); }
+}
+
+.transaction-history {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-history li {
+  background-color: #f9f9f9;
+  text-size-adjust:80%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.transaction-history li p {
+  margin: 5px 0;
+}
+
+.transaction-history li p:first-child {
+  font-weight: bold;
+  color: #333;
+}
