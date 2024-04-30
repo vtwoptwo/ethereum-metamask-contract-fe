@@ -1,3 +1,10 @@
+# Frontend with Ethereum - Network Backend + Smart Contract
+
+
+![Hello World Contract FE](image-1.png)
+
+
+![Example of my ganache instance](image.png)
 ## Set up
 
 
@@ -129,8 +136,3 @@ yarn add web3
 
 
 
-
-![Hello World Contract FE](image-1.png)
-
-
-![Example of my ganache instance](image.png)
